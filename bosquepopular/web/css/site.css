@@ -1,0 +1,185 @@
+@media (min-width: 750px) { 
+    #map{
+        height: 500px !important;
+    }
+    .responsive-video{
+        height: 500px !important;
+        width: 100%;
+    }
+}
+@media (max-width: 749px) {  
+    #map{
+        height: 300px;
+
+    }
+    .responsive-video{
+        height: 200px ;
+    }
+}
+
+.esp li{
+    font-size: 20px;
+    font-family: Verdana, Geneva, sans-serif;
+    color: white;
+    background-color: rgba(3,0,0,0.6);
+}
+
+.esp{
+    border-radius:  30px;
+}
+html,
+body {
+    height: 100%;
+
+}
+#map{
+    height: 300px;
+}
+.responsive-video{
+    height: 150px;
+}
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 50px 15px 20px;
+}
+
+
+.index-tip{
+    background-color: rgba(44, 123, 140, 0.4);
+
+
+}
+.index-white{
+    background-color: white;
+}
+
+.titulo{
+
+    color: white;
+
+
+}
+.ancho{
+
+    background-color: rgba(44, 123, 140, 0.2);
+
+}
+.linkg{
+    font-weight: bolder;
+    color: red;
+}
+.carousel .item {
+    width: 100%; 
+    max-height: 500px; 
+}
+.carousel .item img {
+    width: 100%; 
+}
+.footer {
+    height: 100px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: /*"\e113"*/ "\e151";
+}
+
+a.desc:after {
+    content: /*"\e114"*/ "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view th {
+    white-space: nowrap;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+.navbar-inverse{
+    background-color: #d50023;
+
+
+}
+
+.navbar-inverse a{
+    color: white !important;
+}
+.navbar-inverse li a:hover{
+    background-color:#AA0521;
+
+}
+.navbar-inverse li a:focus{
+    background-color:#AA0521 !important; 
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus{
+    background-color:#b30023 !important;  
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{
+    background-color:#950023 !important;  
+}
+.navbar-inverse .navbar-toggle{
+    border-color: #b30023;
+}
